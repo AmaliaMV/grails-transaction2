@@ -1,0 +1,7 @@
+import com.example.DataModel
+
+model {
+	DataModel dataModel
+}
+
+json tmpl.dataModel(dataModel)

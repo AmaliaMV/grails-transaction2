@@ -1,0 +1,8 @@
+import com.example.DataModel
+
+model {
+	Iterable<DataModel> dataModelList
+}
+
+json tmpl.dataModel(dataModelList ?: [])
+

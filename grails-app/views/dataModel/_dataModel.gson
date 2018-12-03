@@ -1,0 +1,13 @@
+import com.example.DataModel
+
+model {
+	DataModel dataModel
+}
+
+json {
+	id dataModel.id
+	name dataModel.name
+	attributes g.render(dataModel.attributes)
+	dynamic dataModel.dynamic
+	dynamic2 g.render(dataModel.dynamic2)
+}

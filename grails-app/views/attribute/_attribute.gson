@@ -1,0 +1,9 @@
+import com.example.Attribute
+
+model {
+    Attribute attribute
+}
+
+json {
+    name attribute.name
+}
